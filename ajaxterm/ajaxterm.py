@@ -19,6 +19,7 @@ class Terminal:
 	def init(self):
 		self.esc_seq={
 			"\x00": None,
+			"\x01": None,
 			"\x05": self.esc_da,
 			"\x07": None,
 			"\x08": self.esc_0x08,
